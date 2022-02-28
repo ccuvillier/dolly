@@ -1,0 +1,22 @@
+npm init -y
+npm install react --save
+
+yarn --help (voir toute les commandes disponibles)
+
+-- au choix pour créer un projet react --
+npx create-react-app NOM
+npm init react-app NOM
+yarn create react-app NOM
+
+-- demarrer l'application --
+npm start
+
+-- emmet --
+! + tab = entete html
+
+-- extension pour le projet --
+Fontawesome : npm i -S @fortawesome/fontawesome-svg-core @fortawesome/react-fontawesome
+
+Update array in states : npm i react-addons-update
+
+Draggable : https://www.npmjs.com/package/react-draggable

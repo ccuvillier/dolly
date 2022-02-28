@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>es6</title>
+</head>
+<body>
+    <h1>Destructuring in Javascript ES6</h1>
+
+    <script>
+        var robes = ['robe cocktail', 'robe mariée', 'robe jardin'];
+
+        var [robeCocktail, robeMariee, robeJardin] = robes;
+
+        //console.log(robeCocktail, robeMariee, robeJardin);
+
+
+        //------------//
+
+
+        var gardeRobes = {
+            robeOne: "robe cocktail",
+            robeTwo: "robe mariée",
+            robeThree: "robe jardin"
+        }
+
+        //console.log(gardeRobes);
+
+        var superrobe = gardeRobes.robeTwo;
+
+        //console.log(superrobe);
+
+        var {robeOne: noire, robeTwo: blanche, robeThree: fleurs} = gardeRobes;
+
+        console.log(fleurs);
+
+
+
+    </script>
+</body>
+</html>
